@@ -11,7 +11,7 @@ export default defineConfig({
         target: 'http://localhost:5000',
         changeOrigin: true
       },
-      base: process.env.VITE_BASE_PATH || "Ai-medbot-react-frontend"
+      base: process.env.VITE_BASE_PATH || "/Ai-medbot-react-frontend"
     }
   }
 })
